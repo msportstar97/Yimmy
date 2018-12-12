@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content=""><meta name="author" content="">
+	<title>Yimmy</title>
+	<!-- Bootstrap Core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet" /><!-- Custom CSS -->
+	<link href="css/business-casual.css" rel="stylesheet" /><!-- Fonts -->
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css" /><!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries --><!-- WARNING: Respond.js doesn't work if you view the page via file:// --><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="brand">Yimmy</div>
+
+<div class="container">
+<div class="row">
+<div class="box">
+<div class="col-lg-12 text-center">
+<h2 class="brand-before"><p>Get Ready to Eat!&nbsp;</p></h2>
+
+<p><img alt="" src="/cropped-chinese-food-1.jpg" style="width: 500px; height: 207px;" /></p>
+</div>
+</div>
+</div>
+
+<footer>
+<div class="container">
+<div class="row">
+<div class="col-lg-12 text-center">
+<div class="copyright">
+<p>Yimmy will...</p>
+
+<div style="page-break-after: always"><span style="display: none;">&nbsp;</span></div>
+
+<p>Suggest&nbsp;meal options at local restaurants</p>
+
+<p>Filter by location, cuisine type, caloric needs, and&nbsp;price range</p>
+
+<p>Generate&nbsp;a healthy&nbsp;meal plan to meet your needs for the entire week&nbsp;&nbsp;&nbsp;</p>
+
+<p id = "test2"> Please login</p> <br>
+<!--<form action="/search.php" method = "post">-->
+<form action="/check_credentials.php" method = "post"> 
+  Email:<br>
+  <input type="email" name="email" value="" required>
+  <br>
+  Password:<br>
+  <input type="password" name="password" value="" required>
+  <br><br><br>
+  <input id="login" type="submit" name="submit" value="Login"><br><br>
+</form>
+  
+<p> or </p><br>
+
+<p id ="test1"> Please create an account</p> 
+
+<form action="/create_account.php" method = "post">
+  Email:<br>
+  <input type="email" name="email" value="" required>
+  <br>
+  Password:<br>
+  <input type="password" name="password" value="" required>
+  <br>
+  Age:<br>
+  <input type="number" name="age" min="0" value="" required>
+  <br>
+  Gender:<br>
+  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female" > Female<br>
+  <input type="radio" name="gender" value="other"> Other
+  <br>
+   Height (cm):<br>
+  <input type="number" name="height" min="0" value="" required>
+  <br>
+   Weight (kg):<br>
+  <input type="number" name="weight" min="0" value="" required>
+  <br>
+  <br><br>
+  <input id="create" type="submit" name="submit" value="Create">
+</form> 
+
+</div>
+
+<div class="copyright">Copyright &copy; Yimmy 2018</div>
+</div>
+</div>
+</div>
+</footer>
+<!-- jQuery --><script src="js/jquery.js"></script><!-- Bootstrap Core JavaScript --><script src="js/bootstrap.min.js"></script><script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Organization",
+
+      
+      "name" : "Yimmy",
+
+      
+      "url" : "https:\/\/yimmplayground.web.illinois.edu",
+    }
+</script>
+
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">-->
+<!--</script>-->
+<!--<script>-->
+<!--$(document).ready(function(){-->
+    // $(#submit_button').click(function(){
+    //     $('test1').text('Submitted');
+    // });
+<!--    $("#submit-button").click(function(){-->
+<!--       $('#test1').text("submitted");-->
+<!--    });-->
+<!--});-->
+
+<!--</script>-->
+
+
+
+
+</div>
+</body>
+</html>

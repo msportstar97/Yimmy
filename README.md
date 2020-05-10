@@ -11,3 +11,5 @@ the user can search for their preferred meal options from nearby restaurants dep
 they choose and keywords they put in, or Yimmy can generate a personalized weekly meal plan for the user 
 given the parameters and the keywords. Yimmy can also provide a visualization of the nutritional breakdown for
 the user's entire meal plan.
+
+Report: https://docs.google.com/document/d/173dZ7QXIAL_o0z6IWdu4JsmpgLt-7qf2xiR8V4PTMqs/edit?usp=sharing
